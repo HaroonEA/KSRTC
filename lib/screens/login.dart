@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -79,7 +80,9 @@ class _LoginScreenState extends State<LoginScreen> {
               width: 190,
               height: 51,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Get.to(Notification);
+                },
                 style: ElevatedButton.styleFrom(
                     backgroundColor: const Color(0xFFA40606),
                     foregroundColor: Colors.white),

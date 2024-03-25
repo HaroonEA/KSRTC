@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:ksrtc/login.dart';
+import 'package:ksrtc/screens/login.dart';
 // import 'package:get/get.dart';
 // import 'package:ksrtc/splash_controller.dart';
 
